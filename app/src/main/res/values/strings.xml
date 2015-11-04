@@ -1,11 +1,9 @@
 <resources>
     <string name="app_name">MyLarCoo</string>
-
-<!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="cardtext">I often compare open source to science. To where science took this whole notion of developing ideas in the open and improving on other peoples ideas and making it into what science is today and the incredible advances that we have had. And I compare that to witchcraft and alchemy, where openness was something you didnt do.
         Linus Torvalds</string>
     <string name="cardtitle">Ένα σημείο</string>
-    <string name="appname">Meet Larisa</string>
-    <string name="disclaimer">A beautiful place for some people</string>
+    <string name="title">Meet Larisa</string>
+    <string name="subtitle">A beautiful place for some people</string>
+    <string name="logo_description">meet larisa</string>
 </resources>
