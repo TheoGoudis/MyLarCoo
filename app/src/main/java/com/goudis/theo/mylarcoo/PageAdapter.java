@@ -5,9 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * Created by theo on 11/3/15.
- */
 public class PageAdapter extends RecyclerView.Adapter<PageViewHolder> {
 	private final int numItems;
 

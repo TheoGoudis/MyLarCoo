@@ -5,6 +5,10 @@
         <item name="colorAccent">@color/brand_accent</item>
     </style>
 
+    <dimen name="image_width">120dp</dimen>
+    <dimen name="image_final_width">32dp</dimen>
+    <dimen name="spacing_normal">16dp</dimen>
+
     <style name="CollapsingTextAppearance" parent="Base.TextAppearance.AppCompat.Widget.ActionBar.Title"/>
     <style name="CollapsingTextAppearance.Inverse" >
         <item name="android:textSize">30sp</item>

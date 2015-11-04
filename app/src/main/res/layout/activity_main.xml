@@ -48,7 +48,7 @@
         <LinearLayout
             android:id="@+id/materialup.title_container"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:orientation="vertical"
             android:gravity="center"
             app:layout_scrollFlags="scroll|enterAlways|snap"
@@ -59,7 +59,7 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
                 android:text="@string/title"
-                />
+                android:id="@+id/title"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -69,7 +69,7 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
                 android:text="@string/subtitle"
                 android:textColor="@android:color/white"
-                />
+                android:id="@+id/subtitle"/>
 
         </LinearLayout>
 
@@ -92,5 +92,4 @@
         android:layout_height="wrap_content"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         />
-
 </android.support.design.widget.CoordinatorLayout>

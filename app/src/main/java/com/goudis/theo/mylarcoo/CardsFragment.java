@@ -1,7 +1,5 @@
 package com.goudis.theo.mylarcoo;
 
-import android.app.Activity;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.annotation.Nullable;
@@ -10,15 +8,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-
-/**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link CardsFragment.OnFragmentInteractionListener} interface
- * to handle interaction events.
- * Use the {@link CardsFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
 public class CardsFragment extends Fragment {
 	private RecyclerView mRootView;
 
@@ -29,19 +18,20 @@ public class CardsFragment extends Fragment {
 		return mRootView;
 	}
 
-	@Override public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+	@Override
+	public void onActivityCreated(@Nullable Bundle savedInstanceState) {
 		super.onActivityCreated(savedInstanceState);
 		initRecyclerView();
 	}
 
 	private void initRecyclerView() {
-		mRootView.setAdapter(new PageAdapter(20));
+		mRootView.setAdapter(new PageAdapter(10));
 	}
 
 	public static Fragment newInstance() {
 		return new CardsFragment();
 	}
-
+}
 
 
 
@@ -138,4 +128,3 @@ public class CardsFragment extends Fragment {
 		public void onFragmentInteraction(Uri uri);
 	}
 	*/
-}
