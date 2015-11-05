@@ -1,4 +1,4 @@
-package com.goudis.theo.mylarcoo.ui.animations;
+package com.goudis.theo.mylarcoo.view.animations;
 
 import android.support.design.widget.AppBarLayout;
 import android.widget.RelativeLayout;
@@ -55,7 +55,7 @@ public class HeadAnimateListener implements AppBarLayout.OnOffsetChangedListener
 			relLogo.setLayoutParams(relLogoParams);
 			relLogo.startAnimation(resizeAnimationHeight);
 		} catch (Exception e) {
-			e.printStackTrace();
+			//e.printStackTrace();
 		}
 	}
 
@@ -74,7 +74,7 @@ public class HeadAnimateListener implements AppBarLayout.OnOffsetChangedListener
 			relLogo.startAnimation(resizeAnimationHeight);
 
 		} catch (Exception e) {
-			e.printStackTrace();
+			//e.printStackTrace();
 		}
 
 		relLogo.animate()

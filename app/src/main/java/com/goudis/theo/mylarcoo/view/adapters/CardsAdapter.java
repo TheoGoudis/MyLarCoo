@@ -1,4 +1,4 @@
-package com.goudis.theo.mylarcoo.ui.adapters;
+package com.goudis.theo.mylarcoo.view.adapters;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;

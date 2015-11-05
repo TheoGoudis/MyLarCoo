@@ -1,4 +1,4 @@
-package com.goudis.theo.mylarcoo.ui.fragments;
+package com.goudis.theo.mylarcoo.view.fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.goudis.theo.mylarcoo.R;
-import com.goudis.theo.mylarcoo.ui.adapters.CardsAdapter;
+import com.goudis.theo.mylarcoo.view.adapters.CardsAdapter;
 
 public class CardsFragment extends Fragment {
 	private RecyclerView mRootView;

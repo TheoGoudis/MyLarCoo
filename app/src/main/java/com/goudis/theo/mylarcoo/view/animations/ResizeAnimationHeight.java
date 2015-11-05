@@ -1,4 +1,4 @@
-package com.goudis.theo.mylarcoo.ui.animations;
+package com.goudis.theo.mylarcoo.view.animations;
 
 import android.view.View;
 import android.view.animation.Animation;

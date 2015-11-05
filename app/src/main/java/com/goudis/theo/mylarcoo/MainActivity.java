@@ -2,8 +2,6 @@ package com.goudis.theo.mylarcoo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.content.Context;
-import android.content.Intent;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -12,9 +10,8 @@ import android.support.design.widget.TabLayout;
 import android.support.design.widget.AppBarLayout;
 import android.widget.RelativeLayout;
 
-import com.goudis.theo.mylarcoo.ui.animations.HeadAnimateListener;
-import com.goudis.theo.mylarcoo.ui.fragments.CardsFragment;
-import com.goudis.theo.mylarcoo.ui.fragments.FiltersFragment;
+import com.goudis.theo.mylarcoo.view.animations.HeadAnimateListener;
+import com.goudis.theo.mylarcoo.view.fragments.*;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,10 +32,6 @@ public class MainActivity extends AppCompatActivity {
 
 		viewPager.setAdapter(new TabsAdapter(getSupportFragmentManager()));
 		tabLayout.setupWithViewPager(viewPager);
-	}
-
-	public static void start(Context c) {
-		c.startActivity(new Intent(c, MainActivity.class));
 	}
 
 	class TabsAdapter extends FragmentPagerAdapter {
