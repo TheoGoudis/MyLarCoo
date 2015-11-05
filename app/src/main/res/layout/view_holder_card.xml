@@ -23,7 +23,7 @@
         android:layout_marginTop="22dp"
         android:layout_width="match_parent"
         android:layout_height="120dp"
-        android:id="@+id/networkimageview"
+        android:id="@+id/meet_networkimageview"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 

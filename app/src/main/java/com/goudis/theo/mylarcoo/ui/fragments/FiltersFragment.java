@@ -1,4 +1,4 @@
-package com.goudis.theo.mylarcoo;
+package com.goudis.theo.mylarcoo.ui.fragments;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -8,13 +8,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.goudis.theo.mylarcoo.R;
+import com.goudis.theo.mylarcoo.ui.adapters.CardsAdapter;
+
 public class FiltersFragment extends Fragment {
 	private RecyclerView mRootView;
 
 	@Nullable
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-		mRootView = (RecyclerView) inflater.inflate(R.layout.fragment_cards, container, false);
+		mRootView = (RecyclerView) inflater.inflate(R.layout.fragment_filters, container, false);
 		return mRootView;
 	}
 
@@ -25,10 +28,10 @@ public class FiltersFragment extends Fragment {
 	}
 
 	private void initRecyclerView() {
-		mRootView.setAdapter(new PageAdapter(10));
+		mRootView.setAdapter(new CardsAdapter(5));
 	}
 
 	public static Fragment newInstance() {
-		return new CardsFragment();
+		return new FiltersFragment();
 	}
 }
